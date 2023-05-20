@@ -1,0 +1,140 @@
+body{
+    background-color: black;
+    background-image: url(becha.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        border: none;
+    }
+    
+    header{
+        display: flex;
+        justify-content:space-around;
+        max-width: 100%;
+        padding-top: 2rem;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 100px; 
+        height: 100px; 
+        position: fixed;
+        top: 10px; 
+        left: 10px; 
+        margin-right: 10px; 
+      }
+    
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 3rem;
+    }
+    
+    ul li{
+        list-style: none;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        justify-content: space-between;
+    }
+    
+    .icons{
+        margin-right: 5rem;
+    }
+    
+    .icone ion-icon{
+        color: white;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+    
+    hr{
+        border-bottom: solid 0.1px;
+        color: white;
+        margin-top: 16px;
+    }
+
+.payment-form {
+    margin: 3rem auto;
+    max-width: 700px;
+    padding: 3rem;
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+  .payment-form h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+  
+  .payment-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .payment-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  
+  .payment-form input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .payment-form button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: darkred;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .payment-form p {
+    margin-top: 1rem;
+    color: #fff;
+    font-style: italic;
+  }
+
+  .footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    margin-right: 0.5rem;
+  }
+  
+  .verified-symbol {
+    font-size: 1.2rem;
+    color: green;
+  }

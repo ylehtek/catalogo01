@@ -1,0 +1,129 @@
+body{
+    background-color: black;
+    background-image: url(becha.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        border: none;
+    }
+    
+    header{
+        display: flex;
+        justify-content:space-around;
+        max-width: 100%;
+        padding-top: 2rem;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 100px; 
+        height: 100px; 
+        position: fixed;
+        top: 10px; 
+        left: 10px; 
+        margin-right: 10px; 
+      }
+    
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 3rem;
+    }
+    
+    ul li{
+        list-style: none;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        justify-content: space-between;
+    }
+    
+    .icons{
+        margin-right: 5rem;
+    }
+    
+    .icone ion-icon{
+        color: white;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+    
+    hr{
+        border-bottom: solid 0.1px;
+        color: white;
+        margin-top: 16px;
+    }
+
+.about-us {
+    margin-top: 3rem;
+    background-color: black;
+    padding: 3rem 0;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .chef-image {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .text-container {
+    flex: 1;
+    padding: 0 2rem;
+  }
+  
+  .text-container h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .text-container p {
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1.5rem;
+    font-size: 22px;
+    text-align:justify;
+  }
+
+  .footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    margin-right: 0.5rem;
+  }
+  
+  .verified-symbol {
+    font-size: 1.2rem;
+    color: green;
+  }
